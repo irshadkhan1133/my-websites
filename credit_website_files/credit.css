@@ -1,0 +1,284 @@
+.top{
+		background: url(http://goodcreditissexy.info/wp-content/themes/website_13/images/header-bg.jpg);
+		font-family: "Open Sans",sans-serif;
+    
+	}
+
+.active-nav-link {
+  border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+  color: yellow !important;
+}
+
+.cont {
+  position: relative;
+  
+}
+
+.centered {
+  position: absolute;
+  top: 48px;
+  left: 120px;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  max-width: 100%;
+
+}
+.centered h1{
+	font-size: 4rem;
+	line-height: 4rem;
+	color: yellow;
+}
+.centered .btn{
+	border-radius: 30px;
+
+
+}
+@media(min-width: 480px) and (max-width: 575px){
+	.centered{
+		background: blue;
+		padding: 30px;
+		left: 0;
+		position: relative;
+		top: 0;
+		text-align: center;
+
+	}
+}
+
+@media(min-width: 576px) and (max-width: 650px){
+	.centered{
+		background: red;
+		position: relative;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 80%;
+
+	}
+
+}
+@media(min-width: 651px) and (max-width: 867px){
+	.centered{
+		line-height: .5rem
+		font-size:.5rem;
+		top: 0;
+		left: 0;
+
+	}
+	
+    
+}
+@media(min-width: 1000px) and (max-width: 1200px){
+	.centered{
+		top: 20px;
+		left: 0px;
+	}
+
+}
+
+
+	
+		
+
+
+
+.abc .card{
+	border-style: solid;
+	border-top-width: 3px; 
+	border-top-color: blue;
+	margin: 10px;
+}
+
+.abc .card:hover{
+	background-color: blue;
+	border-top-color: yellow;
+}
+
+
+.collection button{
+	width: 100%;
+	text-align: center;
+	
+}
+
+.xyz{
+	width: 100%;
+	overflow: hidden;
+}
+.improve{
+	width: 100%;
+	overflow: hidden;
+}
+
+
+
+.zoom button span {
+  max-width: 0;
+  -webkit-transition: max-width 1s;
+  transition: max-width 1s;
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.zoom button:hover span {
+  max-width: 7rem;
+}
+
+/* back to top button */
+
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 40px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Another pages style */
+/* how it works style */
+.how-it-works{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.fa_custom {
+color: #0099CC
+
+}
+.trophy{
+	margin-top: -35px;
+}
+.horizantal-card{
+	width: 100%;
+	overflow: hidden;
+}
+
+.horizantal-card .card:hover .card-left-side {
+	background-color: blue;
+
+}
+.horizantal-card .card:hover  .trophy {
+	margin-top: 50px;
+	color: white;
+}
+
+/* .....WHAT IS INCLUDED IN THE SERVICES....*/
+.services {
+	
+	width: 100%;
+	overflow: hidden;
+}
+.listincluded{
+	width: 100%;
+	overflow: hidden;
+}
+
+
+@media screen and (max-width: 650px){
+	.services .listincluded {
+	width: 100%;
+	overflow: hidden;
+	
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+
+}
+
+
+/*........About section pages style......*/
+
+
+
+
+
+
+
+/*...........Q&A section pages style.............*/
+
+.qa{
+	background: #333;
+	height: auto;
+	width: 100%;
+	padding: 50px 20px;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+/*...........price section pages style.............*/
+section.priceAnalysis p{
+	font-size: bold;
+	padding-top: 40px;
+	background-color: #ccc;
+}
+
